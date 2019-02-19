@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="relativeType">
+        <item>亲人</item>
+        <item>朋友</item>
+        <item>同事</item>
+    </string-array>
+    <string-array name="updataType">
+        <item>姓名</item>
+        <item>联系方式</item>
+        <item>关系</item>
+    </string-array>
+
+</resources>

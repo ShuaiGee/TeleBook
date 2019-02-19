@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="查询条件"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/search_edit"
+            android:hint="请输入你要查询的联系人姓名"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/search_button"
+            android:textSize="20sp"
+            android:text="查询"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/search_back"
+            android:textSize="20sp"
+            android:text="返回"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/display"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/display2"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/display3"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
